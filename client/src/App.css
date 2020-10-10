@@ -1,0 +1,160 @@
+.View-Window {
+  height: 80%;
+  bottom: 40%;
+}
+
+.Display-Checkout{
+  text-align: center;
+  height: 40%;
+  width: 40%;
+  position: fixed;
+  margin: auto;
+  left: 30%;
+  padding: 10px;
+  overflow-y: scroll;
+}
+
+#confirmButton{
+  font-size: large;
+  font-weight: bold;
+  background-color: lightgreen;
+  color: darkgreen;
+  margin: 0;
+  position: absolute;
+  width: 100px;
+  height: 40px;
+  left: 55%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.cancelCheckoutBtn{
+  font-size: medium;
+  font-weight: bold;
+  background-color: red;
+  color: white;
+  margin: 0;
+  position: absolute;
+  width: 100px;
+  height: 40px;
+  left: 45%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.totalCheckout{
+color: green
+}
+
+.Restaurant-Tb{
+  overflow-y:scroll;
+  overflow-x:scroll;
+  background-color: aliceblue;
+  width: 30%;
+  height: 300px;
+}
+
+.alert-msg{
+  color: red
+}
+
+.Header{
+  height: 15%;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  background-color: darkblue;
+  color: white;
+  top: 0;
+  text-align: center;
+}
+
+.header-table{
+  width: 100%;
+}
+
+.header-table td{
+  width: 50%;
+  text-align: center;
+}
+
+.orderHistoryDiv{
+  top: 50%;
+  left: 30%;
+  position: relative
+}
+
+.OrderHistory h1{
+  text-align: center
+}
+
+.orderHistoryTable{
+  border: 2px solid black;
+  margin: 50px;
+  width: 500px;
+  text-align: left;
+}
+
+.orderHistoryTable td{
+  width: 50%
+}
+
+.orderHistoryTable th{
+  background-color: purple;
+  color: white
+}
+
+.orderHistoryTableTop{
+  background-color: plum;
+}
+
+.orderHistoryTableTotal{
+  background-color: violet;
+  font-weight: bold;
+}
+
+.App{
+  text-align: left;
+  position: fixed;
+  height: 80%;
+  width: 100%;
+  padding: 20px;
+}
+.Order-Detail{
+  height: 75%; 
+  width: 300px; 
+  position: fixed; 
+  z-index: 1;
+  bottom: 5%; 
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden; 
+  padding: 20px;
+  color: white
+}
+
+
+.Navigation-Bar{
+  position: relative;
+  bottom: 0;
+}
+
+.Nav-Button{
+  margin: 2px
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin)
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
