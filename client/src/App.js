@@ -38,7 +38,7 @@ class App extends Component {
           </tr>
         </table>
         <div className="Header">
-          <h1>Movel AI Assignment</h1>
+          <h1>React Node Assignment</h1>
         </div>
         <BrowserRouter>
           <div>
